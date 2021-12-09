@@ -1,20 +1,20 @@
-function isNum(char){
+function isNum(char) {
     return char >= '0' && char <= '9';
-}    
+}
 
-function reverseNumber(num){
-    num =''+ num;
+function reverseNumber(num) {
+    num = '' + num;
     let str = num.split('');
     let i = 0;
-    let j = str.length-1;
-    while(i<j){
-        if(!isNum(str[i])){
+    let j = str.length - 1;
+    while (i < j) {
+        if (!isNum(str[i])) {
             ++i;
         }
-        if(!isNum(str[j])){
+        if (!isNum(str[j])) {
             --j;
         }
-        if(isNum(str[i]) && isNum(str[j])){
+        if (isNum(str[i]) && isNum(str[j])) {
             let tempChar = str[i];
             str[i] = str[j];
             str[j] = tempChar;
