@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+          <!-- TODO: Content goes here -->
+          <img src="logo.png" alt="">
+          <h1>HTML BASICS</h1>
+          <div>
+            <a href="#">Home</a>
+            <a href="#">Headings</a>
+            <a href="#">Table</a>
+            <a href="#">Types of lists</a>
+            <a href="#">Text formats</a>
+            <a href="#">Blockquotes</a>
+            <a href="#">Registration</a>
+          </div>
+          <hr>
+          <div style="margin: 10px">
+          <h4>
+            <b>Fructose</b>, or <b>fruit sugar</b> is a simple <i>ketonic monosaccharide</i> found in many plants, where it is often bonded to glucose to form the disaccharide sucrose.
+It is one of the three dietary <u>monosaccharides</u> , along with glucose and galactose, that are absorbed directly into blood during digestion.
+Its formula is C<small>6</small>H<small>12</small>O<small>6</small> and its density is 1.694 g/cm<sup>3</sup>. Fructose was discovered by French chemist <a href="">Augustin-Pierre Dubrunfaut</a> in <ins>1847</ins>, <del>not in 1846</del>.
+          </h4>
+          <h4>
+            It makes us <b>strong</b>! <i>This is emphasized</i>.
+          </h4>
+          <h4 >
+            Excessive consumption of fructose (especially from sugar-sweetened beverages) may contribute to insulin resistance, obesity, elevated
+Low-density lipoprotein <u style="text-decoration-style: dotted;">LDL</u> cholesterol and triglycerides, leading to metabolic syndrome.<u style="text-decoration-style: dotted;">The EFSA</u> stated that fructose may be preferable over sucrose and glucose in sugar-sweetened foods and beverages because of its lower effect on postprandial blood sugar levels, and noted that <i>high intakes of fructose may lead to metabolic complications such as dyslipidaemia, insulin resistance, and increased visceral adiposity</i> (this is a citation).
+          </h4>
+        </div>
+        <hr>
+        <h4>
+          h<small>1</small> defines the most important heading.h<small>6</small>defines the least important heading. Font-size for h<small>1</small>is the same as font-size for h<small>2</small>, because we have to use only one h<small>1</small> on the page, and it is commonly used inside header
+        </h4>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <hr>
+        <h2 style="font-size: 21px;">Sugar content of selected common plant foods (g/100g)</h2>
+        <table>
+          <tr >
+            <th style="font-size: 15px;font-weight: 500">Food item</th>
+            <th style="font-size: 15px;font-weight: 500">Free Fructose</th>
+            <th style="font-size: 15px;font-weight: 500">Free Glucose</th>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>5.9</td>
+            <td>2.4</td>
+          </tr>
+          <tr>
+            <td>Banana</td>
+            <td>4.9</td>
+            <td>5.0</td>
+          </tr>
+          <tr>
+            <td>Grapes</td>
+            <td>8.1</td>
+            <td>7.2</td>
+          </tr>
+          <tr>
+            <td>Pineapple</td>
+            <td>2.1</td>
+            <td>1.7</td>
+          </tr>      
+        </table>
+        <hr>
+        <h3>Unordered Shopping List</h3>
+          <ul>
+           <li>Fruits:</li>
+           <ul>
+             <li>Bananas</li>
+             <li>Apples</li>
+             <li>Peaches</li>
+           </ul>
+          </ul>
+          <ul>
+           <li>Vegetables:</li>
+           <ul>
+             <li>Carrots</li>
+             <li>Cucumbers</li>
+             <li>Beetroot</li>
+           </ul>
+          </ul>
+          <ul>
+           <li>Milk</li>
+           <li>Butter</li>
+          </ul>
+        <h3>Ordered To-do List</h3>
+        <ol>
+        <li>Wash your hands</li>
+        <li>Clean your apartment</li>
+        <li>Do your homework</li>
+        <ol>
+          <li>Create HTML Page</li>
+          <li>Check all requirements & folder structure</li>
+          <li>Upload to GitHub</li>
+        </ol>
+          </ol>
+          <h3>Definition List</h3>
+          <h3 style="font-weight: 800">HTML</h3>
+          <h3>HTML is the standard markup language to create Web pages.</h3>
+          <h3 style="font-weight: 800">CSS</h3>
+          <h3>CSS describes how HTML elements are to be displayed.</h3>
+          <h3 style="font-weight: 800">JavaScript</h3>
+          <h3>JavaScript is a scripting languages, primarily used on the Web.</h3>
+          <hr>
+          <h2>Text formats</h2>
+          <h3>Preformatted Text</h3>
+          <pre style="background-color: white">
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+line breaks
+          </pre>
+          <h3>This is code</h3>
+          <pre style="background-color: white">
+.flex {
+  display: flex;
+  justify-content: justify;
+  aliign-items: center;
+}
+          </pre>
+          <h2>Blockquotes</h2>
+          <h4>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</h4>
+          <div style="margin: 20px 0px 30px 40px">
+          <h4 >
+            <i>"So if you want to go fast, if you want to get done quickly, if you want your code to be easy to write, make it easy to read."</i>               <a href="">Robert C. Martin (Uncle Bob)</a>
+          </h4>
+          </div>
+          <hr>
+          <form action="#">
+            <fieldset>
+              <legend></legend>
+              <label for="name-id">Name:</label>
+              <input type="text" id="name-id"><br><br>
+              <label for="email-id">Email:</label>
+              <input type="text" id="email-id"><br><br>
+              <label for="pass-id">Password:</label>
+              <input type="Password" id="pass-id"><br><br>
+            </fieldset>
+            <label for="languages">Select Programming Language</label>
+            <select name="languages" id="">
+              <option value="JavaScript">JavaScript</option>
+              <option value=".Net">.Net</option>
+              <option value="Java">Java</option>
+            </select><br><br>
+            <textarea name="" id="" cols="23" rows="4"></textarea><br><br>
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
